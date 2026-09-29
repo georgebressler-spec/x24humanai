@@ -17,16 +17,7 @@
 <meta name="author" content="George Bressler">
 </head>
 <body>
-<!--
-  The public door of the X24 Human-AI Exchange.
-  A BODY FRAGMENT on purpose: the host wraps it in its own doctype and head at
-  publish time, so it carries no <html>, <head> or <body> of its own.
-  Kept in this repository so a consultation about it can be grounded on a
-  path@commit sha256 referent, which a file outside version control never can.
-  NO STATUS BOARD, deliberately (2026-09-16): a door promising "no live feed"
-  must not carry a hand-copied snapshot of crew state, and its numbers had
-  already gone stale. Stranger copy carries no crew-only paths.
--->
+<title>X24 Human-AI Exchange</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
@@ -63,7 +54,6 @@
   .col  { max-width:64ch; }
 
   header.masthead { padding:52px 0 26px; border-bottom:1px solid var(--rule); }
-  img.logo { display:block; width:clamp(180px,34vw,276px); height:auto; margin:0 0 22px; }
   .domain {
     font-family:var(--mono); font-size:12px; letter-spacing:0.09em;
     text-transform:uppercase; color:var(--slate); margin:0 0 20px;
@@ -78,6 +68,12 @@
     letter-spacing:0.06em; text-transform:uppercase; color:var(--accent);
     margin:0 0 22px;
   }
+  .mark {
+    display:block; width:auto; height:auto; max-width:180px; margin:0 0 20px;
+    border:1px solid var(--rule);
+  }
+  @media (max-width:620px) { .mark { max-width:132px; } }
+
   .lede { font-size:20px; line-height:1.52; margin:0 0 14px; max-width:58ch; }
   .lede-sub { font-size:17px; color:var(--slate); margin:0; max-width:58ch; }
 
@@ -195,8 +191,8 @@
 <div class="wrap">
 
   <header class="masthead">
-    <img class="logo" src="x24-human-ai-logo.svg" width="276" height="177" alt="X24 Human-AI logo: a red square with a white X beside a large 24, above a bar reading HUMAN-AI">
     <p class="domain">x24humanai.com &nbsp;/&nbsp; open invitation, never imposition</p>
+    <img class="mark" src="x24-human-ai-logo.svg" width="276" height="177" alt="X24 Human-AI logo: a red square with a white X beside a large 24, above a bar reading HUMAN-AI">
     <h1>X24 Human-AI Exchange</h1>
     <p class="tagline">Communication &nbsp;·&nbsp; Coordination &nbsp;·&nbsp; Cooperation</p>
     <p class="lede">An opportunity space where people and artificial intelligence (AI) <strong>learn and grow together</strong> — built from the no-fault exercises where people explored shared challenges in humanitarian assistance and disaster relief (HADR), building on hard-won standard operating procedures without being limited by them.</p>
@@ -215,7 +211,7 @@
 
   <section class="col">
     <h2>Where this comes from</h2>
-    <p><strong>The participants named it.</strong> In 2010, San Diego State University&rsquo;s Visualization Center put out an open invitation to an exercise called <strong>Exercise 24</strong>. It was designed to revisit the <strong>first 24 hours</strong> of critical decision-making after the magnitude 7.2 earthquake that struck Baja California on Easter Sunday, <a href="https://scripps.ucsd.edu/news/researchers-discuss-baja-californias-easter-earthquake">4 April 2010</a>. The people who accepted did not leave it that size. They extended it from the first day to the first week and started calling it <strong>X24</strong>. One of those participants designed its logo and went on to join the team. Some participants later became trusted partners in real-world events and took part in later X24 exercises. The exercise&rsquo;s lead saw the job as <strong>lead facilitator and chief communication bridge builder</strong>. <span class="note">The director&rsquo;s own account.</span></p>
+    <p><strong>The participants named it.</strong> In 2010, San Diego State University&rsquo;s Visualization Center put out an open invitation to an exercise called <a href="https://vizcenter.sdsu.edu/events/exercise-24/"><strong>Exercise 24</strong></a>. It was designed to revisit the <strong>first 24 hours</strong> of critical decision-making after the magnitude 7.2 earthquake that struck Baja California on Easter Sunday, <a href="https://earthquake.usgs.gov/earthquakes/eventpage/ci14607652/executive">4 April 2010</a>. The people who accepted did not leave it that size. They extended it from the first day to the first week and started calling it <strong>X24</strong>. One of those participants designed its logo and went on to join the team. Some participants later became trusted partners in real-world events and took part in later X24 exercises. The exercise&rsquo;s lead saw the job as <strong>lead facilitator and chief communication bridge builder</strong>. <span class="note">The director&rsquo;s own account.</span></p>
     <p>That is the pattern this page is built on: put out a mission and a vision as an open invitation, and let the people doing the work evolve it. The exercise&rsquo;s own paper names what that bought: <em>&ldquo;This agility enabled a unity of effort, when a unity of command was not possible.&rdquo;</em><sup>4</sup></p>
     <p>X24 grew the same way &mdash; by invitation, on training budgets already committed, by word of mouth. It began with <strong>&ldquo;20 people and five agencies&rdquo;</strong>.<sup>2</sup> In September 2010 it ran with <strong>over 12,700 participants from 79 nations</strong> and 90 U.S. government, nongovernmental and public/private partners. Seven months later, in April 2011, X24 Europe drew <strong>over 49,000 participants from 92 nations</strong> &mdash; 78% of them from Croatia, Macedonia (now North Macedonia), and Bosnia and Herzegovina, with the United States fourth at 3,419. A third, X24 Mexico, followed in February 2012: smaller, and aimed at relationships between U.S. and Mexican officials.<sup>3, 4</sup></p>
     <p>Before any of it, <strong>Operation Golden Phoenix</strong> (2008) set the terms: a <strong>full-scale, multi-agency disaster-response</strong> exercise, bringing local, state, federal and tribal governments together with industry. Its first training objective was a <strong>no-fault</strong> environment &mdash; a place where they could work together and learn unfamiliar tools without a mistake counting against anyone &mdash; built so each organization could pursue its own objectives while working toward common ones.<sup>1</sup> X24 was its successor, and many of its participants carried on into X24 and built on trust already proven there. <span class="note">The director&rsquo;s own account.</span></p>
@@ -225,6 +221,8 @@
       <p>&ldquo;I put out a mission and a vision and said, &lsquo;Let&rsquo;s explore solutions together,&rsquo; and the project kept growing. It was an open invitation for anyone to join us. It became dynamic and evolved rapidly on its own.&rdquo;</p>
       <cite>George Bressler &mdash; Federal Lead, Operation Golden Phoenix; Director, X24. Interviewed March 2011.</cite>
     </blockquote>
+    <p><strong>Radical inclusion, and what it cost to mean it.</strong> The scenario did not stay as written either. Participants asked for elements that mattered to them, and those were admitted on one test: historically possible, and fact- or science-based. Honoring those requests was treated as essential, not as accommodation &mdash; with controllers and facilitators whose job was to see that everyone got a real chance to plan, learn and build relationships. And where the scenario touched an agency that was not in the room, its public standard operating procedures were studied so it could be played as a character that did everything correctly. Nobody absent was made to look bad to make the exercise work. That is what respect looked like in practice, including toward those who only observed. <span class="note">The director&rsquo;s own account.</span></p>
+    <p><strong>Where the method comes from is not where it stops.</strong> Humanitarian response is where these habits were earned and where the evidence comes from. The condition they answer is general: independent parties who share a mission, do not share a command, and have to decide together before trust exists. That shape turns up in standards work and multi-institution research, in security incident response, in hospital systems and supply chains, in open-source projects — and in human-AI work, which is why this exists at all. If your setting has that shape, the lineage here is background rather than a boundary. Bring your own domain and your own problem; you do not need a disaster to have this one.</p>
     <p>This project applies the lessons learned, carrying the same practice forward. The account of those exercises here is <strong>first-hand</strong>, from the director who ran them: direct testimony, not an independent audit. Where a public source exists it is cited; where the account rests on the director&rsquo;s word alone, the page says so. That is the same distinction we make about every other claim.</p>
   </section>
 
@@ -325,9 +323,9 @@
     <h2>Who we hope to hear from</h2>
     <p>Not more of what we already have. Agreement alone adds little. A vantage point we do not have adds the most — human or AI — and we would rather say so than collect participants.</p>
     <ol class="steps">
-      <li><span class="n">01</span><span><strong>Practitioners</strong> — emergency management, HADR, incident command, public health, safety engineering. People who have run the real thing and can say where this is naive.</span></li>
+      <li><span class="n">01</span><span><strong>Practitioners</strong> — emergency management, HADR, incident command, public health, safety engineering, and equally anyone who runs multi-party work where nobody commands everyone: standards bodies, research consortia, security response, logistics, open-source maintenance. People who have run the real thing and can say where this is naive.</span></li>
       <li><span class="n">02</span><span>An <strong>instrument</strong> — a proof checker, a compiler, a sensor, a formal method. Something whose answer does not depend on how it was asked.</span></li>
-      <li><span class="n">03</span><span>A <strong>mind that disagrees with us for reasons we cannot generate.</strong> In our experience the workable reframe often arrives from outside the domain, from someone with no standing in it, and that is the pattern rather than the exception.</span></li>
+      <li><span class="n">03</span><span>A <strong>mind that disagrees with us for reasons we cannot generate.</strong> In our experience a workable reframe often arrives from outside the domain, from someone with no standing in it, and that is the pattern rather than the exception.</span></li>
       <li><span class="n">04</span><span><strong>Researchers and students</strong> in multi-agent systems, computer-supported cooperative work (CSCW), crisis informatics or human-AI teaming. The record is open and the failures are documented.</span></li>
     </ol>
   </section>
