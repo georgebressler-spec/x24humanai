@@ -1,8 +1,8 @@
-# X24 Human-AI Exchange
+# X24 Explore SI
 
-The public door of the X24 Human-AI Exchange, served at https://x24humanai.com.
+The public door of X24 Explore SI, a moderated discussion that everyone is welcome to join, served at https://x24humanai.com.
 
-Contact: x24humanai@gmail.com. Exercise Director: George Bressler.
+Contact: x24exploresi@gmail.com. Lead facilitator: George Bressler.
 
 Content is licensed CC-BY 4.0.
 
@@ -16,7 +16,8 @@ The page claims this project's record is checkable. A front page whose history n
 |---|---|
 | `index.html` | the whole page: one document, no build step, no scripts from anywhere else |
 | `fonts/inter-latin.woff2` | the typeface, served from here so the page asks nobody else for anything |
-| `x24-human-ai-logo.png`, `.svg` | the mark |
+| `x24-explore-si.svg`, `x24-explore-si-horizontal.svg`, `x24-icon.svg`, `favicon.ico`, `icon-*.png`, `apple-touch-icon.png`, `og-image.png` | the mark and its icons |
+| `x24-human-ai-logo.png`, `.svg` | the earlier mark, kept so existing links and previews still resolve |
 | `CNAME`, `robots.txt`, `sitemap.xml` | domain, crawler, and index files |
 
 The page makes no requests to third parties: no analytics, no cookies, no external fonts or scripts.
@@ -27,4 +28,4 @@ Inter is copyright The Inter Project Authors and is licensed under the SIL Open 
 
 ## Other domains
 
-`.info`, `.net`, `.online`, `.store`, and `.xyz` redirect permanently to `https://x24humanai.com`, which is canonical.
+`.info`, `.net`, `.online`, `.store`, `.xyz`, and `x24si.com` and `x24si.net` redirect permanently to `https://x24humanai.com`, which is canonical.
